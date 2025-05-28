@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+}
+
+.encabezado {
+	background: url(../assets/images/angel.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+
+.encabezado h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	font-size: 220px;
+	font-weight: lighter;
+	color: #ffffff;
+}
+
+.primero {
+	margin: 150px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.primero img{
+	height: 70vh;
+}
+
+.music{
+	width: 50%;
+}
+
+.music h2 {
+	font-size: 90px;
+	margin-bottom: 10px;
+	color: #363636;
+}
+
+.music h2 span {
+	background: linear-gradient(90deg, #FA4A54, #DA0170);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.music p{
+	line-height: 1.8;
+}
+
+.music button{
+	background: #FD4C5C;
+	margin-top: 20px;
+	font-size: 13px;
+	color: #ffffff;
+	border-radius: 50px;
+	border: none;
+	padding: 18px;
+	width: 160px;
+}
+
+.segundo {
+	margin: 150px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.segundo img{
+	height: 70vh;
+}
+
+.louder{
+	width: 50%;
+}
+
+.louder h2 {
+	font-size: 80px;
+	margin-bottom: 10px;
+	color: #363636;
+}
+
+.louder h2 span {
+	background: linear-gradient(90deg, #FA4A54, #DA0170);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.louder p{
+	line-height: 1.8;
+}
+
+.louder button{
+	background: #FD4C5C;
+	margin-top: 20px;
+	font-size: 13px;
+	color: #ffffff;
+	border-radius: 50px;
+	border: none;
+	padding: 18px;
+	width: 160px;
+}
